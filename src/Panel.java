@@ -21,7 +21,6 @@ public class Panel extends JPanel implements ActionListener {
     JTextField poletekstowe = new JTextField();
 
     JButton AC = new JButton("C");
-
     JButton plusminus = new JButton("±");
     JButton procent = new JButton("%");
     JButton podzielone = new JButton("÷");
