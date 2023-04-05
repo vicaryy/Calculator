@@ -6,8 +6,8 @@ import java.text.*;
 
 public class Panel extends JPanel implements ActionListener {
     DecimalFormat df = new DecimalFormat("#.#######");       // Patern do wyswietlania wyniku
-    private boolean resetLiczba2 = false;
-    private boolean nowaLiczba2 = false;
+    private boolean resetLiczba2;
+    private boolean nowaLiczba2;
     private String liczba1 = "";
     private String liczba2 = "";
     private char operator = '=';
